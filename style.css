@@ -26,7 +26,7 @@ h2 {
 form {
     color: rgb(8, 245, 245);
     text-size-adjust: 20% ;
-
+    text-size-adjust: 15px;
 }
 body {
     margin: 0px;
@@ -43,14 +43,28 @@ input:hover{
     border-color: #ffffff;
 }
 ul li:hover {
+    border-color: #000000;
+    color: rgb(255, 255, 255);
     list-style: upper-roman;
     text-align: start;
-    background: rgb(233, 93, 93) no-repeat center right;
+    background: rgb(0, 0, 0) ;
+    background-size: cover;
     border: blue;
 }
-details:hover{
-    background: black;
+.password{
+   background-size: 20px;
+   border-color: #000000;
+   border-width: 3px;
 }
-details{
- contain: size(20px 20px);
+details:hover{
+    background: rgb(255, 255, 255);
+    text-align: start;
+}
+button{
+    color: aqua;
+    background-color: #000000;
+    border-width: 6px;
+    border-color: whitesmoke;
+    size: 50px;
+    font-size: larger;
 }
