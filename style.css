@@ -1,32 +1,18 @@
-.formsubmission {
+h1{
     margin: 0px;
-    padding: 0px;
-    border: 0px;
-}
-h1 {
     text-align: center;
-    color: rgb(18, 1, 1);
-    margin: 0px;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    font-style: oblique;
-    font-size: xxx-large;
-}
-.formsubmission {
-    background: radial-gradient(rgb(251, 255, 0) 25%, rgb(0, 255, 251) 70%);
-    position: sticky;
-}
-h2 {
-    text-decoration: solid;
     border-color: black;
-    border-width: 5%;
-    color: rgb(255, 255, 255);
-    background-color:rgb(161, 238, 46) ;
-    border-radius: 50px;
+    border-width: 5px;
+    color: rgb(0, 0, 0);
+    background: radial-gradient(rgb(251, 255, 0) 25%, rgb(0, 255, 251) 70%);
 }
-form {
-    color: rgb(8, 245, 245);
-    text-size-adjust: 20% ;
-    text-size-adjust: 15px;
+h2 {  
+    color: rgb(241, 10, 10);
+    background:rgb(255, 255, 255) ;
+}
+p{
+    font-style: italic;
+    font-weight: bolder;
 }
 body {
     margin: 0px;
@@ -35,7 +21,8 @@ body {
 }
 nav {
     margin: 0px;
-    padding: 0px 650px;
+    padding: 0px 0px;
+    height: 300px;
 }
 input:hover{
     background-color: #e9e3e3;
@@ -57,14 +44,14 @@ ul li:hover {
    border-width: 3px;
 }
 details:hover{
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     text-align: start;
 }
 button{
     color: aqua;
     background-color: #000000;
-    border-width: 6px;
+    border: 6px solid white;
     border-color: whitesmoke;
-    size: 50px;
-    font-size: larger;
+    font-size: 1rem;
+    border-radius: 10px;
 }
