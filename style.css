@@ -2,13 +2,16 @@ h1{
     margin: 0px;
     text-align: center;
     border-color: black;
-    border-width: 5px;
     color: rgb(0, 0, 0);
     background: radial-gradient(rgb(251, 255, 0) 25%, rgb(0, 255, 251) 70%);
 }
 h2 {  
     color: rgb(241, 10, 10);
     background:rgb(255, 255, 255) ;
+    width: 380px;
+}
+.info{
+    text-align: -webkit-center;
 }
 p{
     font-style: italic;
@@ -16,7 +19,7 @@ p{
 }
 body {
     margin: 0px;
-    background: linear-gradient(to left, rgb(233, 93, 93) 59%,rgb(161, 238, 46) 45% ) ; 
+    background: linear-gradient( rgb(233, 93, 93),rgb(161, 238, 46) ) ; 
     text-align: center;
 }
 nav {
@@ -38,14 +41,14 @@ ul li:hover {
     background-size: cover;
     border: blue;
 }
-.password{
-   background-size: 20px;
-   border-color: #000000;
-   border-width: 3px;
+details{
+    margin-left: 150px;
+    margin-right: 250px;
+    width: 780px;
+    /* text-align: -webkit-center; */
 }
 details:hover{
     background-color: rgb(255, 255, 255);
-    text-align: start;
 }
 button{
     color: aqua;
