@@ -1,6 +1,6 @@
-
 h1{
     margin: 0px;
+    font-size: xx-large;
     text-align: center;
     border-color: black;
     color: rgb(0, 0, 0);
@@ -14,7 +14,9 @@ h2 {
     text-align: center;
 }
 .info{
-    /* padding: 0px 250px; */
+    max-width: max-content;
+    padding: 0px;
+    border: 0px;
 }
 p{
     font-style: italic;
@@ -22,7 +24,6 @@ p{
 }
 body {
     margin: 0px;
-    /* background: linear-gradient( rgb(233, 93, 93) 30%,rgb(161, 238, 46) 70% ) no-repeat content-box;  */
     background-color: rgb(216, 158, 72);
     text-align: center;
 
